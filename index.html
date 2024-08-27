@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENCRIPTOR DE TEXTO</title>
+    <link rel="stylesheet" href="styles.css" />
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="encriptar">
+
+        <img class="alura" src="Logo.png" alt="logo alura">
+
+        <h1 class="titulo" >Ingresa el texto aquí</h1>
+
+        <textarea
+        name="texto"
+        class="texto"
+      
+        ></textarea>
+
+        <div class="terminos">
+          <p>Solo letras minúsculas y sin acentos.</p>
+        </div>
+        <div class="botones">
+          <button class="boton1" type="button" onclick="encriptar()">
+            Encriptar
+          </button>
+          <button class="boton2" type="button" onclick="desencriptar()">
+            desencriptar
+          </button>
+        
+        </div>
+      </div>
+      <div class="encriptado">
+        <img src="Muñeco.png" alt="logo Muñeco"/>
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+          <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
+          <p id="parrafo">
+            Ingrese el texto que desea encriptar o desencriptar
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="escriptador.js"></script>
+  </body>
+  <footer class="footer">elaborado por Edson Colmenares</footer>
+</html>
